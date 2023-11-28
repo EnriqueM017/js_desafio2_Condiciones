@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.imagen_spiderman {
+    display: flex;
+    min-height: 100vh;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    /* width: 60vw; */
+}
+
+.borderOrange {
+    border: 12px ridge orange;
+}
+
+.bgColor {
+    background-color: darkslateblue;
+}
+
+button {
+    margin-left: auto !important;
+}
