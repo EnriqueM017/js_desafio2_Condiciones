@@ -44,3 +44,45 @@ input {
 .button-verificar {
     text-align: center;
 }
+
+@media (min-width: 320px) and (max-width: 448px) {
+    body {
+        min-height: 100vh;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        min-height: 100vh !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .card {
+        height: 236px !important;
+        align-items: center;
+    }
+
+    input {
+        width: 70px;
+        text-align: center;
+    }
+
+    .button-verificar {
+        text-align: center;
+    }
+}
